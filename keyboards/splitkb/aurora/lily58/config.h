@@ -18,5 +18,8 @@
 
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
+#   define SPLIT_LED_STATE_ENABLE
+#   define SPLIT_LAYER_STATE_ENABLE
+#   define SPLIT_WPM_ENABLE
 #   define OLED_FONT_H "keyboards/splitkb/aurora/lily58/glcdfont.c"
 #endif
